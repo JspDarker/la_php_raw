@@ -17,21 +17,9 @@ class App
     public function __construct()
     {
         require_once "../app/Controllers/welcome.php";
-
-
-        echo "<h2> this is App in Core</h2>";
+        //echo "<h2> this is App in Core</h2>";
 
     }
 
 
-
-    public function setMoney($money)
-    {
-        $this->money = $money;
-    }
-
-    public function getMoney()
-    {
-        return $this->money;
-    }
 }
